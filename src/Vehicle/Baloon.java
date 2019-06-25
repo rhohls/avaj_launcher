@@ -21,7 +21,7 @@ public class Baloon extends Aircraft implements Flyable{
                         coordinates.getLongitude() + 2,
                         coordinates.getLatitude(),
                         coordinates.getHeight() + 4);
-                Logger.log(getInfo() + "is warming up in the sun");
+                Logger.log(getInfo() + "look how sunny it is.");
                 break;
 
             case "RAIN":
@@ -29,7 +29,7 @@ public class Baloon extends Aircraft implements Flyable{
                         coordinates.getLongitude(),
                         coordinates.getLatitude(),
                         coordinates.getHeight() - 5);
-                Logger.log(getInfo() + "gets pelted by rain.");
+                Logger.log(getInfo() + "it's super rainy.");
                 break;
 
             case "FOG":
@@ -37,7 +37,7 @@ public class Baloon extends Aircraft implements Flyable{
                         coordinates.getLongitude(),
                         coordinates.getLatitude(),
                         coordinates.getHeight() - 3);
-                Logger.log(getInfo() + "is shrouded in fog.");
+                Logger.log(getInfo() + "look how foggy it is.");
                 break;
 
             case "SNOW":
@@ -45,8 +45,11 @@ public class Baloon extends Aircraft implements Flyable{
                         coordinates.getLongitude(),
                         coordinates.getLatitude(),
                         coordinates.getHeight() - 15);
-                Logger.log(getInfo() + "Look at all this white");
+                Logger.log(getInfo() + "it's super snowy here");
                 break;
+
+            default:
+                throw new Exception("Weather \"" + newWeather + "\" does not exist");
         }
 
         if (coordinates.getHeight() <= 0)

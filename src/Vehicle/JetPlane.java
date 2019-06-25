@@ -21,7 +21,7 @@ public class JetPlane extends Aircraft implements Flyable{
                         coordinates.getLongitude(),
                         coordinates.getLatitude() + 10,
                         coordinates.getHeight() + 2);
-                Logger.log(getInfo() + "is warming up in the sun");
+                Logger.log(getInfo() + "The sun is bright");
                 break;
 
             case "RAIN":
@@ -29,7 +29,7 @@ public class JetPlane extends Aircraft implements Flyable{
                         coordinates.getLongitude(),
                         coordinates.getLatitude() + 5,
                         coordinates.getHeight());
-                Logger.log(getInfo() + "gets pelted by rain.");
+                Logger.log(getInfo() + "Can confirm its raining");
                 break;
 
             case "FOG":
@@ -37,7 +37,7 @@ public class JetPlane extends Aircraft implements Flyable{
                         coordinates.getLongitude(),
                         coordinates.getLatitude() + 1,
                         coordinates.getHeight());
-                Logger.log(getInfo() + "is shrouded in fog.");
+                Logger.log(getInfo() + "There is fog around here");
                 break;
 
             case "SNOW":
@@ -45,8 +45,11 @@ public class JetPlane extends Aircraft implements Flyable{
                         coordinates.getLongitude(),
                         coordinates.getLatitude(),
                         coordinates.getHeight() - 7);
-                Logger.log(getInfo() + "Look at all this white");
+                Logger.log(getInfo() + "Snow is thick and falling");
                 break;
+
+            default:
+                throw new Exception("Weather \"" + newWeather + "\" does not exist");
         }
         if (coordinates.getHeight() <= 0)
         {

@@ -48,6 +48,8 @@ public class Helicopter extends Aircraft implements Flyable{
                 Logger.log(getInfo() + "Look at all this white");
                 break;
 
+            default:
+                throw new Exception("Weather \"" + newWeather + "\" does not exist");
         }
         if (coordinates.getHeight() <= 0)
         {
