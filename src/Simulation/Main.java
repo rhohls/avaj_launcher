@@ -16,24 +16,21 @@ import static java.lang.System.exit;
 public class Main {
     public static void main(String[] args) {
         int numWeatherChange;
-        String fileLocation = "scenario.txt";
 
-        //create new sim file
-        try {
-            FileWriter fw = new FileWriter("simulation.txt");
-            fw.write("");
-            fw.close();
-        }
-        catch(Exception e){
-            System.out.println(e);
-            exit(1);
-        }
-
+        //create new output file
+        CreateNewFile();
 
 /*
         String fileLocation = System.getProperty("user.dir");
         System.out.println(fileLocation);
 */
+        if (args.length != 1) {
+            System.out.println("Please input 1 text file");
+            exit(0);
+        }
+        String fileLocation = args[0];
+
+        System.out.println(fileLocation);
 
 
         String line = null;
@@ -45,21 +42,23 @@ public class Main {
             line = reader.readLine();
 
             numWeatherChange = Integer.parseInt(line);
+            if (numWeatherChange <= 0)
+                throw new NumberFormatException("Only positive intergers acceptable");
 
 
         } catch (IOException e) {
-            System.out.println("There was an error with reading the file");
-//            e.printStackTrace();
+            System.out.println("There was an error with reading the file:");
+            System.out.println(e.getMessage());
             return;
         }
         catch (NumberFormatException e){
-            System.out.println("There was an error converting the number");
-
+            System.out.println("There was an error converting the number of weather changes:");
+            System.out.println(e.getMessage());
             return;
         }
         catch (Exception e){
             System.out.println("There was an error:");
-            e.printStackTrace();
+            System.out.println(e.getMessage());
             return;
         }
 
@@ -68,9 +67,9 @@ public class Main {
         AircraftFactory aircraftFactory = new AircraftFactory();
         Flyable object;
 
+        int i = 2;
         //read rest of lines
         try {
-
             line = reader.readLine();
             while (line != null) {
 
@@ -86,17 +85,18 @@ public class Main {
 
                 object.registerTower(weatherTower);
                 line = reader.readLine();
+                i++;
             }
             reader.close();
         } catch (Exception e) {
-            System.out.println("There was an error creating the flying objects. It was:");
-            e.printStackTrace();
+            System.out.println("There was an error creating the flying objects. On line " + i);
+            System.out.println(e.getMessage());
             return;
         }
 
         // Run weather
         try {
-            for (int i = 1; i <= numWeatherChange; i++) {
+            for (i = 1; i <= numWeatherChange; i++) {
 //            System.out.println(i);
 //            Logger.Log(i + "");
                 weatherTower.changeWeather();
@@ -106,6 +106,19 @@ public class Main {
             e.printStackTrace();
             return;
         }
+    }
 
+    private static void CreateNewFile(){
+        //create new output file
+        try {
+            FileWriter fw = new FileWriter("simulation.txt");
+            fw.write("");
+            fw.close();
+        }
+        catch(Exception e){
+            System.out.println("There was an error creating the output file:");
+            System.out.println(e.getMessage());
+            exit(1);
+        }
     }
 }

@@ -1,1 +1,139 @@
 Baloon B1 (1): registered to tower.
+Baloon B2 (2): registered to tower.
+Jetplane J1 (3): registered to tower.
+Helicopter H1 (4): registered to tower.
+Helicopter H2 (5): registered to tower.
+Helicopter H3 (6): registered to tower.
+Baloon B3 (7): registered to tower.
+Jetplane J2 (8): registered to tower.
+Helicopter H4 (9): registered to tower.
+Baloon B1 (1): is shrouded in fog.
+Baloon B2 (2): Look at all this white
+Jetplane J1 (3): Look at all this white
+Helicopter H1 (4): Look at all this white
+Helicopter H2 (5): Look at all this white
+Helicopter H3 (6): is shrouded in fog.
+Baloon B3 (7): is warming up in the sun
+Jetplane J2 (8): is warming up in the sun
+Helicopter H4 (9): gets pelted by rain.
+Baloon B1 (1): is warming up in the sun
+Baloon B2 (2): gets pelted by rain.
+Jetplane J1 (3): gets pelted by rain.
+Helicopter H1 (4): Look at all this white
+Helicopter H1 (4): landed and deregistered from tower.
+	Height: 0 Latitude: 33 Longitude: 654
+Helicopter H3 (6): is warming up in the sun
+Baloon B3 (7): gets pelted by rain.
+Jetplane J2 (8): gets pelted by rain.
+Helicopter H4 (9): is shrouded in fog.
+Baloon B1 (1): gets pelted by rain.
+Baloon B2 (2): Look at all this white
+Jetplane J1 (3): is shrouded in fog.
+Helicopter H2 (5): Look at all this white
+Helicopter H3 (6): is shrouded in fog.
+Baloon B3 (7): Look at all this white
+Jetplane J2 (8): is shrouded in fog.
+Helicopter H4 (9): is warming up in the sun
+Baloon B1 (1): Look at all this white
+Baloon B2 (2): gets pelted by rain.
+Jetplane J1 (3): is warming up in the sun
+Helicopter H2 (5): Look at all this white
+Helicopter H3 (6): is warming up in the sun
+Baloon B3 (7): gets pelted by rain.
+Jetplane J2 (8): is warming up in the sun
+Helicopter H4 (9): is warming up in the sun
+Baloon B1 (1): gets pelted by rain.
+Baloon B1 (1): landed and deregistered from tower.
+	Height: 0 Latitude: 3 Longitude: 4
+Jetplane J1 (3): is warming up in the sun
+Helicopter H2 (5): Look at all this white
+Helicopter H2 (5): landed and deregistered from tower.
+	Height: 0 Latitude: 33 Longitude: 22
+Baloon B3 (7): Look at all this white
+Baloon B3 (7): landed and deregistered from tower.
+	Height: 0 Latitude: 22 Longitude: 104
+Helicopter H4 (9): is warming up in the sun
+Baloon B2 (2): Look at all this white
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): gets pelted by rain.
+Jetplane J2 (8): gets pelted by rain.
+Helicopter H4 (9): is warming up in the sun
+Baloon B2 (2): gets pelted by rain.
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): is shrouded in fog.
+Jetplane J2 (8): is shrouded in fog.
+Helicopter H4 (9): is warming up in the sun
+Baloon B2 (2): Look at all this white
+Baloon B2 (2): landed and deregistered from tower.
+	Height: 0 Latitude: 8 Longitude: 1
+Helicopter H3 (6): is warming up in the sun
+Jetplane J2 (8): is warming up in the sun
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): gets pelted by rain.
+Jetplane J2 (8): gets pelted by rain.
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): is shrouded in fog.
+Jetplane J2 (8): is shrouded in fog.
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): is warming up in the sun
+Jetplane J2 (8): is warming up in the sun
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): gets pelted by rain.
+Jetplane J2 (8): gets pelted by rain.
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): is shrouded in fog.
+Jetplane J2 (8): is shrouded in fog.
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): is warming up in the sun
+Jetplane J2 (8): is warming up in the sun
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): gets pelted by rain.
+Jetplane J2 (8): gets pelted by rain.
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): is shrouded in fog.
+Jetplane J2 (8): is shrouded in fog.
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): is warming up in the sun
+Jetplane J2 (8): is warming up in the sun
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): gets pelted by rain.
+Jetplane J2 (8): gets pelted by rain.
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): is shrouded in fog.
+Jetplane J2 (8): is shrouded in fog.
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): is warming up in the sun
+Jetplane J2 (8): is warming up in the sun
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): gets pelted by rain.
+Jetplane J2 (8): gets pelted by rain.
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): is shrouded in fog.
+Jetplane J2 (8): is shrouded in fog.
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): is warming up in the sun
+Jetplane J2 (8): is warming up in the sun
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): gets pelted by rain.
+Jetplane J2 (8): gets pelted by rain.
+Helicopter H4 (9): is warming up in the sun
+Jetplane J1 (3): is warming up in the sun
+Helicopter H3 (6): is shrouded in fog.
+Jetplane J2 (8): is shrouded in fog.
+Helicopter H4 (9): is warming up in the sun

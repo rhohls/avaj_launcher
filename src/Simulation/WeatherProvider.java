@@ -16,13 +16,11 @@ public class WeatherProvider {
     public String getCurrentWeather(Coordinates coordinates) throws Exception {
 
         int sum = coordinates.getHeight() + coordinates.getLatitude() + coordinates.getLongitude();
-
         int rand = sum % weather.length;
 
 //        Random gen = new Random(sum);
 //        int rand = gen.nextInt(weather.length);
 //        System.out.println("rand " + rand);
-//        System.out.println("custom" + (rand));
 
         return weather[rand];
     }
