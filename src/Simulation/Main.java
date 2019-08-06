@@ -1,6 +1,7 @@
 package Simulation;
 
 import Helper.Logger;
+import Helper.PseudoRand;
 import Vehicle.Aircraft;
 import Vehicle.AircraftFactory;
 import Vehicle.Flyable;
@@ -94,6 +95,17 @@ public class Main {
             System.out.println(e.getMessage());
             return;
         }
+
+
+//        try {
+//            PseudoRand lol = new PseudoRand(9, 0);
+//            for (int i = 0; i < 20; i++) {
+//                System.out.println("Result:  " +lol.RandInt());
+//            }
+//        }catch (Exception e) {
+//            System.out.println(e.getMessage());
+//            return;
+//        }
     }
 
     private static void CreateNewFile(){
